@@ -13,7 +13,6 @@ class Favorite < ApplicationRecord
     Babyname.find_by(id: self.babyname_id).first_name
   end
 
-
   def sex
     Babyname.find_by(id: self.babyname_id).gender
   end
